@@ -1,0 +1,25 @@
+npm install -y
+npm install express
+npm install -D nodemon //reinicializa toda vez que alterar o projeto
+
+//Essas instalações com -D são "Dev Dependencies", utilizadas apenas em ambientes de desenvolvimento, não serão instaladas quando subirmos para plataformas online
+
+Ao instalar o nodemon, podemos ir no package.json e configurar um script para ambiente desenvolvimento
+ "scripts": {
+    "dev": "nodemon server.js"
+  },
+
+Depois utilizaremos no terminal apenas o comando npm run dev, o mesmo irá executar o server.js utilizando o nodemon
+
+Instalar Mongodb
+no terminal:
+
+docker pull mongo
+docker run --name mongodb -p 27017:27017 -d mongo 
+
+Instalamos o Robomongo e configuramos o mesmo nessa porta, com o nome de "Docker", o mesmo só irá servir para verificarmos se está tudo funcionando!]
+
+o comando docker ps -a verifica quais aplicações estão rodando no docker.
+o comando docker start mongo starta o mongo
+
+npm install mongoose
