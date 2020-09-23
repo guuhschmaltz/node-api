@@ -20,6 +20,8 @@ docker run --name mongodb -p 27017:27017 -d mongo
 Instalamos o Robomongo e configuramos o mesmo nessa porta, com o nome de "Docker", o mesmo só irá servir para verificarmos se está tudo funcionando!]
 
 o comando docker ps -a verifica quais aplicações estão rodando no docker.
-o comando docker start mongo starta o mongo
+o comando docker start mongodb starta o mongo
 
 npm install mongoose
+
+npm install require-dir
