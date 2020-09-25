@@ -24,4 +24,8 @@ o comando docker start mongodb starta o mongo
 
 npm install mongoose
 
-npm install require-dir
+npm install require-dir (para configurarmos um diretorio padrão para todos controllers)
+
+npm install mongoose-paginate (para configurarmos a paginação)
+
+npm install cors (configurar acessos da api)
